@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting Website</title>
+  <script>
+    function sayHello() {
+      var name = document.getElementById("nameInput").value;
+      alert("Hello, " + name + "!");
+    }
+  </script>
+</head>
+<body>
+  <h1>Greeting Website</h1>
+  <label for="nameInput">Enter your name:</label>
+  <input type="text" id="nameInput">
+  <button onclick="sayHello()">Say Hello</button>
+</body>
+</html>
