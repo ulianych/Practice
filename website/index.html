@@ -6,6 +6,7 @@
   <script>
     function sayHello() {
       var name = document.getElementById("nameInput").value;
+      document.getElementById("nameInput").value = ""
       if (name == "")
         alert("Please, write your name")
       else
