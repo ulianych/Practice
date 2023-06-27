@@ -3,21 +3,15 @@
 <head>
   <title>Greeting Website</title>
   <link rel="stylesheet" href="styles.css">
-  <script>
-    function sayHello() {
-      var name = document.getElementById("nameInput").value;
-      document.getElementById("nameInput").value = ""
-      if (name == "")
-        alert("Please, write your name")
-      else
-        alert("Hello, " + name + "!");
-    }
-  </script>
+  <script src="script.js"></script>
 </head>
 <body>
   <h1>Greeting Website</h1>
   <label for="nameInput">Enter your name:</label>
   <input type="text" id="nameInput">
   <button onclick="sayHello()">Say Hello</button>
+
+  <div id="textBlock1"></div>
+  <div id="textBlock2"></div>
 </body>
 </html>
